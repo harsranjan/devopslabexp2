@@ -43,7 +43,29 @@ public static void sortarraybubblebyharsh(int[] arr)
     
 	}  
 	}
+//Contributed by Anushka Mediratta
 
+    public static boolean isPalindrome(int number) {
+        int originalNumber = number;
+        int reversedNumber = 0;
+
+        while (number != 0) {
+            int digit = number % 10;
+            reversedNumber = reversedNumber * 10 + digit;
+            number /= 10;
+        }
+
+        return originalNumber == reversedNumber;
+    }
+
+    public static void main(String[] args) {
+        int number = 12321; // Change this to test different numbers
+        if (isPalindrome(number)) {
+            System.out.println(number + " is a palindrome.");
+        } else {
+            System.out.println(number + " is not a palindrome.");
+        }
+    }
 		
 
 
