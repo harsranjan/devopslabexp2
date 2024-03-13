@@ -99,6 +99,21 @@ public static void main(String[] args) {
     static int subtract(int a, int b) {
         return a - b;
     }
+
+	//function by abhijeet nautiyal
+		static int sum(int []arr) 
+	{ 
+		int sum = 0;  
+		int i; 
+
+		
+		for (i = 0; i < arr.length; i++) 
+			sum += arr[i]; 
+
+		return sum; 
+	}
+
+		//end of the function
 		
 }
 
