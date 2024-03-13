@@ -66,6 +66,22 @@ public static void sortarraybubblebyharsh(int[] arr)
 
 
 
+
+//Function created by harsh verma
+public static void createPattern(int rows) {
+        // Iterate over the rows
+        for (int i = 0; i < rows; i++) {
+            // Iterate over the columns
+            for (int j = 0; j <= i; j++) {
+                // Print an asterisk for each column
+                System.out.print("* ");
+            }
+            // Move to the next line after printing each row
+            System.out.println();
+        }
+    }
+
+		
 		
 }
 
