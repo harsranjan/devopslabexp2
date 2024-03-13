@@ -143,6 +143,10 @@ public static void subtract(String[] args) {
 }
 }
 
-		
+		// Function to multiply 2 numbers by afreen
+public static int multiplyafreen(int num1, int num2) {
+        return num1 * num2;
+    }
+	
 	
 
