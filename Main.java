@@ -86,7 +86,7 @@ public static void createPattern(int rows) {
 
 
 //Function created by Girish 
-public static void main(String[] args) {
+public static void subtract(String[] args) {
         int num1 = 10;
         int num2 = 5;
         
