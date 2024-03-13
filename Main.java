@@ -6,7 +6,7 @@ public class Main
 		
 		
 		//below function is done by harsh ranjan
-		static void sortarraybubblebyharsh(int[] arr)
+		public static void sortarraybubblebyharsh(int[] arr)
 	{
 	    int length = arr.length;
 	    
