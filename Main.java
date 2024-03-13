@@ -5,8 +5,8 @@ public class Main
 		
 		
 		
-		//below function is done by harsh ranjan
-		public static void sortarraybubblebyharsh(int[] arr)
+//below function is done by harsh ranjan
+public static void sortarraybubblebyharsh(int[] arr)
 	{
 	    int length = arr.length;
 	    
@@ -24,7 +24,7 @@ public class Main
 	        }
 	    }
 	}
-    }
+    		
 
 
 	
