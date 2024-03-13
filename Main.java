@@ -42,6 +42,7 @@ public static void sortarraybubblebyharsh(int[] arr)
         return a + b;  
     
 	}  
+	}
 
 		
 
