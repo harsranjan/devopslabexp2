@@ -128,6 +128,24 @@ public static void subtract(String[] args) {
         }
     }
 
+
+		 // contributed by Srajeta Gupta
+public static double divide(double dividend, double divisor) {
+        if (divisor == 0) {
+            throw new ArithmeticException("Division by zero is not allowed.");
+        }
+        return dividend / divisor;
+    }
+
+    public static void main(String[] args) {
+        double dividend = 10.0;
+        double divisor = 2.0;
+        double result = divide(dividend, divisor);
+        System.out.println("Result of division: " + result);
+    }
+
+		 
+		 
     // Function to check if a number is prime
     public static boolean isPrime(int num) {
         if (num <= 1) {
