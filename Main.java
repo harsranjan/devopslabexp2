@@ -69,6 +69,7 @@ public static void sortarraybubblebyharsh(int[] arr)
 
 
 //Function created by harsh verma
+// Function to create a pattern of asterisks
 public static void createPattern(int rows) {
         // Iterate over the rows
         for (int i = 0; i < rows; i++) {
