@@ -204,3 +204,13 @@ public class Main {
         return num1 * num2;
     }
 }
+
+#Nancy contribution
+def print_numbers(n):
+    if n > 0:
+        print_numbers(n - 1)  # Recursively call with n-1
+        print(n)  # Print the current number
+
+# Example usage:
+N = 10
+print_numbers(N)
